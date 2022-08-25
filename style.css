@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Figtree:wght@700&family=Inter:wght@800&family=Merriweather&family=Montserrat:wght@100;300&family=Sacramento&family=Silkscreen&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 0;
+    padding: 0;
+    height: 100vh;
+    font-family: "DynaPuff", "Merriweather", "sans-serif";
+    gap: 1rem;
+}
+
+.container {
+    height: 450px;
+    width: 450px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-top: 24px;
+}
+
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    border-left: hidden;
+    border-top: hidden;
+    font-size: 5rem;
+
+    
+
+}
+
+h1 {
+    color: #54BAB9;
+}
+
+.right-boxes {
+    border-right: hidden;
+}
+
+.bottom-boxes {
+    border-bottom: hidden;
+}
+
+
+.names {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1.4rem;
+    align-items: center;
+}
+
+input {
+    border-radius: 15px;
+    outline: none;
+    border: 2px solid;
+    padding: 8px;
+    font-size: 1.2rem;
+    font-family: "DynaPuff", "Merriweather", "sans-serif";
+}
+
+.player {
+    display: flex;
+    gap: 1.2rem;
+}
+
+
+#submit-button {
+    border-radius: 15px;
+    background-color: #B9FFF8;
+    padding: 8px;
+    width: 40%;
+}
+
+#restart {
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color: #B9FFF8;
+    padding: 8px;
+    width: 20%;
+    visibility: hidden;
+}
